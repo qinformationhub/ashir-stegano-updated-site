@@ -6,9 +6,9 @@ import Images from '../public/images/box.png';
 const WhoWeAreSection = () => {
   return (
     <div className="bg-black text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    
       <div className="absolute inset-0 pointer-events-none">
-        {/* Rotating Stars */}
+      
         <div className="animate-rotateSlow absolute top-10 left-10">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M12 2L14.09 8.26L22 9L16 14.74L17.18 22.69L12 19.27L6.82 22.69L8 14.74L2 9L9.91 8.26L12 2Z" fill="#ffffff" opacity="0.15"/>
@@ -39,7 +39,7 @@ const WhoWeAreSection = () => {
           </svg>
         </div>
 
-        {/* Additional Stars */}
+     
         <div className="animate-rotateReverse absolute top-16 left-1/3">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
             <path d="M12 2L14.09 8.26L22 9L16 14.74L17.18 22.69L12 19.27L6.82 22.69L8 14.74L2 9L9.91 8.26L12 2Z" fill="#ffffff" opacity="0.13"/>
@@ -70,12 +70,12 @@ const WhoWeAreSection = () => {
           </svg>
         </div>
 
-        {/* Floating Circles */}
+       
         <div className="animate-floatUp absolute top-16 right-10 w-2 h-2 rounded-full" style={{backgroundColor: '#ffffff', opacity: 0.1}}></div>
         <div className="animate-floatDown absolute bottom-16 left-16 w-1.5 h-1.5 rounded-full" style={{backgroundColor: '#eaeaea', opacity: 0.15}}></div>
         <div className="animate-floatSide absolute top-1/3 right-1/4 w-1 h-1 rounded-full" style={{backgroundColor: '#aaaaaa', opacity: 0.2}}></div>
 
-        {/* Rotating Lines */}
+    
         <div className="animate-rotateLine absolute top-20 right-1/3">
           <div className="w-8 h-0.5 bg-white opacity-10 transform rotate-45"></div>
         </div>
@@ -84,13 +84,13 @@ const WhoWeAreSection = () => {
           <div className="w-6 h-0.5 bg-white opacity-8 transform rotate-12"></div>
         </div>
 
-        {/* Pulsing Dots */}
+       
         <div className="animate-pulse1 absolute top-1/4 left-1/2 w-1 h-1 rounded-full" style={{backgroundColor: '#ffffff', opacity: 0.2}}></div>
         <div className="animate-pulse2 absolute bottom-1/4 right-1/2 w-1.5 h-1.5 rounded-full" style={{backgroundColor: '#eaeaea', opacity: 0.15}}></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Heading */}
+       
         <div className="mb-12 text-left">
           <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-1" style={{ color: '#ffffff' }}>
             WHO WE ARE
